@@ -11,3 +11,7 @@ class Dog:                              # create a class about dogs
     
 
 fido = Dog("Fido", 15)                         #instantiate the dog class for fido
+
+print(fido.name)                               #print the instance and class attributes using 'dot notation'
+print(fido.age)
+print(fido.species)
