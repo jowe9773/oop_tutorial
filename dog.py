@@ -20,6 +20,12 @@ class Dog:                                                  # create a class abo
         return f"{self.name} says {sound}!"
 
 
+
+
+
+
+
+# instantiate the objects/ use the classes
 fido = Dog("Fido", 15)                                      #instantiate the dog class for fido
 
 print(fido)                                                 #print the string generated in __str__ for the instance of Dog named attribute
