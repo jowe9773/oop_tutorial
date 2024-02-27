@@ -7,3 +7,7 @@ class Dog:                              # create a class about dogs
         
         self.name = name                # Creates an attribute called name and assigns it the value of the variable name 
         self.age = age                  # These are instance attributes
+
+    
+
+fido = Dog("Fido", 15)                         #instantiate the dog class for fido
