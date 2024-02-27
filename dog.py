@@ -16,7 +16,6 @@ class Dog:                                                  # create a class abo
     def speak(self, sound):                                 # Method to have the class instance do something ("speak")
         return f"{self.name} says {sound}!"
 
-    
 
 fido = Dog("Fido", 15)                                      #instantiate the dog class for fido
 
@@ -26,3 +25,9 @@ print(fido.species)
 
 fido.species = "Felis silvestris"                           #can change attributes (both class and instance) for a particular instance
 print(fido.species)
+
+fido_description = fido.description()                                          #do the decription method for fido
+print(fido_description)
+
+fido_says = fido.speak("Meow")                                                 #do the speak method for fido saying "Meow"
+print(fido_says)
