@@ -10,6 +10,9 @@ class Dog:                                                  # create a class abo
         self.name = name                                    # Creates an attribute called name and assigns it the value of the variable name 
         self.age = age                                      # These are instance attributes
 
+    def __str__(self):                                      # returns a string when the class is called to print
+        return f"{self.name} is {self.age} years of age."
+
     def description(self):                                  # Method to describe the instance of the class
         return f"{self.name} is {self.age} years old"
 
@@ -18,6 +21,8 @@ class Dog:                                                  # create a class abo
 
 
 fido = Dog("Fido", 15)                                      #instantiate the dog class for fido
+
+print(fido)                                                 #print the string generated in __str__ for the instance of Dog named attribute
 
 print(fido.name)                                            #print the instance and class attributes using 'dot notation'
 print(fido.age)
