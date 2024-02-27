@@ -15,3 +15,6 @@ fido = Dog("Fido", 15)                         #instantiate the dog class for fi
 print(fido.name)                               #print the instance and class attributes using 'dot notation'
 print(fido.age)
 print(fido.species)
+
+fido.species = "Felis silvestris"              #can change attributes (both class and instance) for a particular instance
+print(fido.species)
